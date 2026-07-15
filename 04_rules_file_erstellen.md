@@ -27,8 +27,3 @@ Prüfe mit /memory ob die Regel geladen wird.
 **Merke:** Dynamischer Kontext. Rules Files werden nur bei 
 passenden Dateitypen geladen und sparen Tokens gegenüber einer 
 überladenen CLAUDE.md.
-
-**Merke:** Prüfe die Wirkung, nicht die Absicht. Ein Rules File, das
-nicht lädt, sagt nichts — es schweigt. `/memory` listet auf, was
-tatsächlich geladen ist. Ein Sub-Agent kann Syntax bestätigen, die
-es nicht gibt; die laufende Instanz kann es nicht.
